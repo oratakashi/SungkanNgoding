@@ -1,0 +1,215 @@
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+
+}
+@media (min-width: 992px) {
+	body.boxed #main-wrapper {
+		max-width:1030px;
+	}
+}
+@media (min-width: 1200px) {
+	body.boxed #main-wrapper {
+		max-width:1230px
+	}
+}
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {	
+	body.boxed #main-wrapper {
+		max-width:810px;
+		
+	}
+}
+@media screen and (min-width: 800px) and (max-width: 600px) {
+	.top-left, .top-roght, .topmost-line{
+		text-align:center;
+	}
+}
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+	body {
+		margin:0;
+		padding:0;
+	}
+	.container {
+		width: 300px;
+		margin:0 auto;
+	}
+	.top-left, .top-roght, .topmost-line{
+		text-align:center;
+	}
+	.pull-left.top-left, .pull-right.top-right{
+		float:none !important;
+		text-align:center;
+	}
+	.jetmenu{
+		width:100%;
+	}
+	.jetmenu li > .megamenu ul{
+		margin-bottom:15px;
+	}
+	.topmost-line .selected{
+		padding:15px 8px 16px;
+	}
+	
+	#body-content [class*="col-"], *[class*="col-"] .footer-wrap{
+        margin-bottom: 40px;
+    }
+	.smart-mar, #body-content [class*="col-"]:last-child, #body-content [class*="col-"].smart-mar, #body-content #contact_form [class*="col-"]{
+        margin-bottom: 0;
+    }
+	#body-content .fontawesome-icons ul li[class*="col-"]{
+		margin-bottom:8px;
+	}
+    *[class*="col-"] *[class*="col-"]:last-child{
+        margin-bottom: 0 !important;
+    }
+
+    *[class*="col-"] *[class*="col-"]{
+        margin-left: 0 !important;
+    }
+	header#optional{
+		position:relative;
+		width:100%;
+		padding:0;
+		z-index:100;
+		background:#40AAE6;
+	}
+	.filter-btn{
+		display:block;
+		margin:0 0 8px 0;
+	}
+	.portfolio-buttons a{
+		position:static;
+	}
+	.portfolio-buttons{
+		margin-bottom:20px;
+	}
+	.pagination-wrap .pagination{
+		margin-bottom:0;
+	}
+	.pagination-wrap .pagination > li > a, .pagination-wrap .pagination > li > span{
+		margin:0 4px;
+		padding:6px 11px;
+	}
+	.bloglist.blog-grid .blog-entry { width: 100%; }
+	.new-collection img{
+		position:relative;
+		top:-10px;
+		right:0;
+	}
+	.tp-banner2 a.my-btn, .tp-banner a.my-btn{
+		font-size:9px;
+	}
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	body {
+		margin:0;
+		padding:0;
+	}
+	.container{
+		width:420px;
+	}
+	body.boxed #main-wrapper, body.boxed #main-wrapper header {
+		max-width:460px;
+	}
+	.body-content [class*="span"]{
+		margin-bottom:25px;
+	}
+	.jetmenu li.circle a:before{
+		content:"";
+	}
+	.social-icons ul li a{
+		width:30px;
+		height:30px;
+		line-height:30px;
+		font-size:18px;
+	}
+	.copyright .text-right{
+		text-align:left;
+		margin:15px 0 0 0;
+	}
+	.home-title{
+		font-size:20px;
+	}
+	.singup-wrap input#signup{
+		margin-bottom:20px;
+	}
+	.spacer.smart-mar{
+		height:1px;
+	}
+	.bloglist.blog-grid .blog-entry { width:100%; padding:0 10px}
+	
+}
+
+@media (min-width: 768px) and (max-width: 979px) { 
+	body:after{
+		position:absolute;
+		content:"";
+		top:0;
+		right:100px;
+		z-index:1000;
+	}
+	.jetmenu{
+		float:none;
+	}
+	.logo{
+		padding:20px 0 0 0;
+	}
+	header#optional{
+		position:relative;
+		width:100%;
+		padding:0;
+		z-index:100;
+		background:#40AAE6;
+	}
+	.bloglist.blog-grid .blog-entry { width: 48.5%; }
+ }
+
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+	body {
+		margin:0;
+		padding:0;
+	}
+	.container{
+		width:300px;
+	}
+	body.boxed #main-wrapper {
+		max-width:340px;
+	}
+	.header-cart .button{
+		padding:14px 7px;
+	}
+	.topmost-line .dropdown, .header-cart{
+		margin-left:3px;
+	}
+	.top-left a, .top-left span.black{
+		margin:0 2px;
+	}
+	.top-right a img, .top-right a i{
+		margin-right:2px;
+	}
+	.social-icons ul li{
+		padding:0 3px;
+	}
+	.social-icons ul li a{
+		width:30px;
+		height:30px;
+		line-height:30px;
+		font-size:18px;
+	}
+	.copyright .text-right{
+		text-align:left;
+		margin:15px 0 0 0;
+	}
+	.singup-wrap input#signup{
+		margin-bottom:20px;
+	}
+	.spacer.smart-mar{
+		height:1px;
+	}
+	.bloglist.blog-grid .blog-entry { width: 100%; }
+}

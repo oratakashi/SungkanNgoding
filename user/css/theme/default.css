@@ -1,0 +1,12 @@
+/* Text Theme Color */
+a, h3, h1, .jetmenu > li:hover > a, .jetmenu > li.active > a, .download-icon a, .owl-theme .owl-controls .owl-buttons div, .stats-wrap i, .jetmenu li > .megamenu a:hover, .my-btn.bordered:hover, .home-title2 h2, .about-quote blockquote:before, .team-social li a:hover, .list-colored li i, .small-icons .icon-left, .theme-text, .new-collection h3 span, .featured h2, .featured h1, .font-large, .tags a:hover, .flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover, .share-this .social-icons ul li a:hover{color:#40aae6;}
+
+
+/* Background Theme Color */
+#back-top a:hover, .my-btn.shadow, .callout, .shadow-wrap .icon-holder i, .icon-left, .owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span, .singup-wrap .btn-default, .social-icons ul li a, .footer-post .icon-left, .jetmenu ul.dropdown li:hover > a, .item-thumbs .hover-wrap .overlay-img, .theme-accordian .panel-default > .panel-heading, .flex-control-paging li a.flex-active, .flex-control-paging li a:hover, .filter-btn:hover, .filter-btn.active, .zebra-wrap, .mobile-features, #top-bar, .topmost-line .dropdown-menu a:hover, .header-cart .cart-total, .hot-label, .cart-button a, .breadcrumbs, .theme-tab .nav-tabs > li.active > a, .theme-tab .nav-tabs > li.active > a:hover, .theme-tab .nav-tabs > li.active > a:focus, .theme-tab .nav > li > a:hover, .theme-tab .nav > li > a:focus, .my-btn:hover, .my-btn.btn-large:hover, .my-btn.btn-small:hover, .skillbar-bar, .dropcap2, .pagination-wrap .pagination > li > a, .pagination-wrap .pagination > li > span, .portfolio-buttons a, .jetmenu > li.showhide, .client-box:hover{background-color:#40aae6;}
+
+
+/* Border Theme Color */
+.owl-theme .owl-controls .owl-buttons div, .my-btn.bordered:hover, .filter-btn:hover, .filter-btn.active, .tags a:hover{border:1px solid #40aae6;}
+.jetmenu > li > .megamenu, .jetmenu ul.dropdown{border-top:4px solid #40aae6;}
+.home-title2 h2{border-right:1px solid #40aae6;}
